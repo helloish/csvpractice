@@ -22,7 +22,7 @@ temp_lst = []
 
 # open file in read mode 'r'
 
-with open('Files/pf.csv', 'r') as read_obj:
+with open('Files/people.csv', 'r') as read_obj:
 
     # pass the file object to reader() to get the reader object
 
@@ -59,7 +59,7 @@ print(new_csv_cols)
 
 # updating original csv file in write mode 'w'
 
-with open('Files/pf.csv', 'w', newline='') as f:
+with open('Files/people.csv', 'w', newline='') as f:
 
     w = csv.DictWriter(f, new_csv_cols)
 
