@@ -59,7 +59,7 @@ print(new_csv_cols)
 
 # updating original csv file in write mode 'w'
 
-with open('Files/people.csv', 'w', newline='') as f:
+with open('Files/pf.csv', 'w', newline='') as f:
 
     w = csv.DictWriter(f, new_csv_cols)
 
